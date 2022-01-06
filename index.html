@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Calculator</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+         <!-- IT PERFROMS +, -, *, / AND GIVE ANS ON CLICKING = OR "ANS". IT ALSO CLEARS THE TEXT FILED AFTER EVEY = OR "ANS" CLICK. -->
+      <div class="cal">
+         <input type="text" id="eq" value="">
+         <div class="butCointaner">
+               <div class="row1">
+                  <button class="num" >Rad</button>
+                  <button class="num" >Deg</button>
+                  <button class="num" >x!</button>
+                  <button class="num" >(</button>
+                  <button class="num" >)</button>
+                  <button class="num" >%</button>
+                  <button class="num" >AC</button>
+               </div>
+               <div class="row2">
+                  <button class="num" >inv</button>
+                  <button class="num" >sin</button>
+                  <button class="num" >ln</button>
+                  <button class="num rnum clickable" onclick="concat_()" value="7">7</button>
+                  <button class="num rnum clickable" onclick="concat_()" value="8">8</button>
+                  <button class="num rnum clickable" onclick="concat_()" value="9">9</button>
+                  <button class="num clickable" onclick="concat_()" value="/">/</button>
+               </div>
+               <div class="row4">
+                  <button class="num" >pi</button>
+                  <button class="num" >cos</button>
+                  <button class="num" >log</button>
+                  <button class="num rnum clickable" onclick="concat_()" value="4">4</button>
+                  <button class="num rnum clickable" onclick="concat_()" value="5">5</button>
+                  <button class="num rnum clickable" onclick="concat_()" value="6">6</button>
+                  <button class="num clickable" onclick="concat_()" value="*">*</button>
+               </div>
+               <div class="row5">
+                  <button class="num" >e</button>
+                  <button class="num" >tan</button>
+                  <button class="num" >sqrt</button>
+                  <button class="num rnum clickable" onclick="concat_()" value="1">1</button>
+                  <button class="num rnum clickable" onclick="concat_()" value="2">2</button>
+                  <button class="num rnum clickable" onclick="concat_()" value="3">3</button>
+                  <button class="num clickable" onclick="concat_()" value="-">-</button>
+               </div>
+               <div class="row6">
+                  <button class="num" onclick="eval_()">ANS</button>
+                  <button class="num" >EXP</button>
+                  <button class="num" >x^2</button>
+                  <button class="num rnum clickable" onclick="concat_()" value="0">0</button>
+                  <button class="num clickable" onclick="concat_()" value=".">.</button>
+                  <button class="num equal" onclick="eval_()">=</button>
+                  <button class="num clickable" onclick="concat_()" value="+">+</button>
+               </div>
+         </div>
+      </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
+

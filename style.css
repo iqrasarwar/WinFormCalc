@@ -1,0 +1,37 @@
+.num
+{
+   margin: 5px;
+   padding:  5px 10px;
+   width: 50px;
+   background-color: rgb(204, 196, 196);
+   border: none;
+   border-radius: 9px;
+}
+#eq
+{
+    margin: 5px;
+    width: 425px;
+    border: 2px inset rgb(33, 146, 199);
+    border-radius: 15px;
+    height: 50px;
+}
+.cal
+{
+   border: 2px inset rgb(179, 50, 172);
+   width: max-content;
+   margin: auto;
+   margin-top: 14%;
+}
+body
+{
+   background-color: rgb(241, 116, 231);
+}
+.rnum
+{
+   background-color: rgb(231, 227, 243);
+   font-weight: bold;
+}
+.equal
+{
+   background-color: blue;
+}
