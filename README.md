@@ -1,2 +1,2 @@
 # jsCalculator
-a simplr js calculator app
+a simple js & winForm calculator app
